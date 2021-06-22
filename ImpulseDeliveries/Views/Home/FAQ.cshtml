@@ -1,0 +1,80 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .accordion {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+        }
+
+            .active, .accordion:hover {
+                background-color: #ccc;
+            }
+
+        .panel {
+            padding: 0 18px;
+            display: none;
+            background-color: white;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>FREQUENTLY ASKED QUESTIONS</h2>
+
+    <button class="accordion">What defines a small or medium sized parcel? </button>
+    <div class="panel">
+        <p>We have a specific dimension and weight for the parcel, that comes in a small or medium size parcels. For e.g. We do not deliver the big furniture, refrigerator, etc.</p>
+    </div>
+
+
+
+    <button class="accordion">Do we have any refund policy? </button>
+    <div class="panel">
+        <p>A customer has a chance to go back till he makes the payment, because once he makes the payment, we start using our time, resources, and services for the customer so we cannot reverse that. In simple words there is no refund policy as we assume that while entering the details for parcel, address, and till the point where payment is made, the customer is fully aware of his activities.  </p>
+    </div>
+
+    <button class="accordion">Can we change the delivery address after the order is finished?  </button>
+    <div class="panel">
+        <p>Unfortunately, we will not be offering that option, as we believe its customer’s accountability to enter the correct details and double check. Once the order is confirmed, we will process according to the information given. </p>
+    </div>
+
+    <button class="accordion">How will the delivery be made, left at the door or hand in person? What happens if there is no one to receive the delivery? </button>
+    <div class="panel">
+        <p>Our service provider will not leave the parcel at the door, he will hand the parcel to the receiver. As we believe that before confirming the delivery, receiver gets full information about the parcel and if it is confirmed by receiver, it means that someone will be available to receive the parcel. However, if under some circumstances there is no one to receive the parcel, our service provider will bring back the parcel to our office and we will contact the sender and receiver and ask them whoever is available for pickup. </p>
+    </div>
+
+    <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+    </script>
+
+</body>
+</html>

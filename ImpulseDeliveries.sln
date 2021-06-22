@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImpulseDeliveries", "ImpulseDeliveries\ImpulseDeliveries.csproj", "{43019271-4477-460F-A1A2-E0C2F70488E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43019271-4477-460F-A1A2-E0C2F70488E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43019271-4477-460F-A1A2-E0C2F70488E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43019271-4477-460F-A1A2-E0C2F70488E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43019271-4477-460F-A1A2-E0C2F70488E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C23120D8-B226-47FD-A69C-30FC4EF6688A}
+	EndGlobalSection
+EndGlobal
